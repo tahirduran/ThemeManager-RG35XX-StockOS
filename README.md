@@ -13,7 +13,7 @@ ThemeManager is here to change that. This application allows you to easily manag
 ThemeManager is fully compatible with the official 1.1.5 firmware for the Anbernic RG35XX H/Plus.
 
 ## Installation
-1. Download the zip file from [ThemeManager.zip](https://example.com/download/theme-manage.zip).
+1. Download the zip file from [ThemeManager.zip](https://github.com/tahirduran/ThemeManager-RG35XX-StockOS/releases/download/v1.001/ThemeManager-v1.001.zip).
 
 2. Extract the contents of the zip file and copy the extracted files to the `/mnt/mmc/Roms/APPS` folder on your RG35XX device.
 
