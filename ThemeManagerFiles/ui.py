@@ -63,7 +63,7 @@ def load_menu():
 			abuttontext = "Apply"
 		button_circle((30, 460), "A", abuttontext)
 		button_circle((133, 460), "B", "Back")
-		button_circle((225, 460), "Y", "Preview " + list.themeTypeNames[list.themeTypes[app.themeTypeActive]])
+		# button_circle((225, 460), "Y", "Preview " + list.themeTypeNames[list.themeTypes[app.themeTypeActive]])
 
 
 	# if panelActive == "accept":

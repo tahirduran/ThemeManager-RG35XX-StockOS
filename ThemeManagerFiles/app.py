@@ -141,7 +141,8 @@ def data_load():
 	return themeData
 
 def theme_list_load():
-	dirs = os.listdir(AppDIR + "/themes")
+	# dirs = os.listdir(AppDIR + "/themes")
+	dirs = [f.name for f in os.scandir(AppDIR + "/themes") if f.is_dir()]
 	for theme in dirs:
 		if not theme in list.themeList:
 			list.themeList.append(theme)
